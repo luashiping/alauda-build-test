@@ -1,3 +1,2 @@
-FROM tutum/centos:6.5
-ADD test/hoho /root/
+FROM tutum/centos
 CMD ["bash"]
