@@ -1,3 +1,3 @@
-FROM ubuntu:14.04
+FROM tutum/centos
 ADD test/hoho /root/
 CMD ["bash"]
