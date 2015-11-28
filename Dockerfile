@@ -1,3 +1,3 @@
-FROM tutum/centos
-EXPOSE 22
-CMD ["/usr/bin/sshd -D"]
+FROM index.alauda.cn/alauda/https-nginx-php
+EXPOSE 80
+CMD ["/run.sh"]
