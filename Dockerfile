@@ -1,3 +1,3 @@
 FROM tutum/centos
 EXPOSE 22
-CMD ["sshd -D"]
+CMD ["/usr/bin/sshd -D"]
